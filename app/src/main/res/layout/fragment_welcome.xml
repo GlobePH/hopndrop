@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="dev.info.hopndrop.FragmentWelcome">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/linearLayout5">
+
+        <EditText
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Origin"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_current"/>
+
+        <EditText
+            android:id="@+id/end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Destination"
+            android:imeActionId="@+id/login"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_drop"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Departure:"
+                android:id="@+id/textView5"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="|"
+                android:id="@+id/textView7"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/timeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Time"
+                android:textSize="18sp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="|"
+                android:id="@+id/textView6"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checklist"
+                android:src="@drawable/ic_check"
+                android:background="#fff"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewSearch"
+        android:id="@+id/btnViewSearch"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_centerHorizontal="true" />
+
+    <!-- TODO: Update blank fragment layout -->
+
+</RelativeLayout>

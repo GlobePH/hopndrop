@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dev.info.hopndrop.RouteScheduleFragment"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Starting Route"
+        android:imeActionId="@+id/login"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/ic_drop" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Ending Route"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/ic_current" />
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        />
+
+</LinearLayout>

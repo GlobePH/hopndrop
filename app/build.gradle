@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "dev.info.hopndrop"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
+                                onesignal_app_id               : "d8293b4f-5b84-4f44-b428-843935a392b6",
+                                onesignal_google_project_number: "371875541586"]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+
+
+
+
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.github.flavienlaurent.datetimepicker:library:0.0.2'
+    compile 'com.afollestad.material-dialogs:core:0.8.6.2'
+    compile 'com.onesignal:OneSignal:2.+@aar'
+    compile 'com.google.android.gms:play-services-gcm:9.2.1'
+    compile 'com.google.android.gms:play-services-analytics:9.2.1'
+    compile 'com.google.android.gms:play-services-location:9.2.1'
+    compile 'com.google.android.gms:play-services:9.2.1'
+}

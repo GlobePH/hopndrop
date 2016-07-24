@@ -1,0 +1,940 @@
+<!DOCTYPE HTML>
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+
+<html class="noIE">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Tofito - Single Page Responsive HTML Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Favorite Icons -->
+<link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+<link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+<!-- // Favorite Icons -->
+
+<!-- FONT  -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="font/icomoon/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="font/icon/simple-line-icons.css">
+
+<!-- // FONT -->
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/isotope.css">
+<link rel="stylesheet" href="css/prettyphoto/default.css">
+<link rel="stylesheet" href="css/mobilemenu.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/hover-min.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/innerpage.css">
+<link rel="stylesheet" href="css/sequencejs.css" />
+
+<!--[if IE 8]>
+		<script src="js/respond.min.js"></script>
+		<script src="js/selectivizr-min.js"></script>
+		<script src="js/PIE.min.js"></script>
+<![endif]-->
+    
+    
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>');</script>
+<script src="js/modernizr.min.js"></script>
+
+</head>
+<body class="onepage sticky-header">
+<div id="loading-mask">
+  <div class="loading-img"><img alt="img"   src="images/preloader.gif"  /></div>
+</div>
+
+<!-- PAGE HEADER -->
+<header class="page-header" role="banner" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <div class="logo " > <a href="index.html#home" title="Tofito - Single Page Responsive HTML Template"> <img  src="img/hopndrop.png" alt="Tofito - Single Page Responsive HTML Template" /> </a> </div>
+      </div>
+      <div class="col-sm-12 col-md-9 col-lg-9">
+        <nav class="main-nav clearfix" role="navigation">
+          <ul id="main-menu" class="menu main-menu hidden-xs">
+            <li class="active"><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#Services">Services</a></li>
+            <li><a href="index.html#how-work">Process</a></li>
+            <li><a href="index.html#portfolio">Download</a></li>
+            <li><a href="index.html#our-team">Team</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.html#connected">Connect</a></li>
+          </ul>
+          <div id="mobile-menu" class="visible-xs">
+            <div id="dl-menu" class="dl-menuwrapper menu">
+              <button class="dl-trigger" title="Toggle Site Menu"><i class="icomoon-reorder"></i></button>
+              <ul class="dl-menu">
+                <li class="active"><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#Services">Services</a></li>
+                <li><a href="index.html#how-work">Process</a></li>
+                <li><a href="index.html#portfolio">Download</a></li>
+                <li><a href="index.html#our-team">Team</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="index.html#connected">Connect</a></li>
+              </ul>
+            </div>
+            <!-- /dl-menuwrapper --> 
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- //PAGE HEADER --> 
+
+<!-- HOME SLIDER -->
+<section id="home" class="section  home-slider" >
+  <div id="sequence" >
+    <div class="custom-video section" data-section="about">
+    <div class="video_section" id="section0">
+      <video autoplay loop muted id="myVideo">
+        <source src="bg.mp4" type="video/mp4">
+        <source src="bg.mp4.webm" type="video/webm">
+      </video>
+      <div class="layer">
+          <div class="wrap wrap_video">
+
+          </div>
+        </div>
+      </div>
+    </div>                    
+  </div><!-- Background video section : End -->
+  </div>
+</section>
+<!-- // HOME SLIDER --> 
+<style type="text/css">
+  video {
+    max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+#myVideo {
+    /* position: absolute; */
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 2000px;
+    min-width: 720px;
+    height: auto;
+    min-height: 650px;
+/*     background: url(../images/video-bg.png) center no-repeat; */
+    -webkit-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+    z-index: 3;
+}
+
+#section0 {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+@media only screen and (min-width: 770px) {
+  #section0 {
+      position: relative;
+      overflow: hidden;
+      max-height: 350px !important;
+      min-height: 350px;
+      height: 100% !important;
+      display: block;
+  }
+}
+
+#section0 .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.34);
+    text-align: center;
+}
+
+.wrap_video {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.site__title {
+    display: block;
+    line-height: .8;
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 12px;
+    color: #fff;
+    font-family: serif;
+}
+</style>
+
+<!-- SERVICES SECTION -->
+<section id="Services" class="section section-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6">
+        <header class="section-header">
+          <h2 class="heading"> Featured Services</h2>
+          <p> Why settle for less when you deserve the best! </p>
+        </header>
+      </div>
+    </div>
+    <div class="row animated animation-done bounceInRight" data-animation="bounceInRight"> 
+      
+      <!-- BEGIN -->
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <article class="clearfix animated text-left animation-done fadeInDown" data-animation="fadeInDown"> 
+          
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs list-service">
+            <li class="active"><a href="#branding" data-toggle="tab"><span class="icon-briefcase" aria-hidden="true"></span>Branding</a></li>
+
+            <li class=""><a href="#technology" data-toggle="tab"><span class="icon-rocket" aria-hidden="true"></span>Technology</a></li>
+            <li class=""><a href="#marketing" data-toggle="tab"><span class="icon-pie-chart" aria-hidden="true"></span>Experience</a></li>
+          </ul>
+        </article>
+      </div>
+      
+      <!-- Tab panes -->
+      <div class="tab-content ">
+        <div class="tab-pane active" id="branding">
+          <div class="col-xs-12 col-sm-5 col-lg-6 ">
+            <article class="clearfix animated text-left animation-done"> 
+            
+            <span aria-hidden="true" class="icon-briefcase big-icon"></span>
+            
+              <h3>Branding</h3>
+              <p>ADVANCED. EFFICIENT. HASSLE-FREE. <br><br>
+
+              This brilliant idea of hopndrop was just hatched on an office desk. It just began on a simple 
+              desire to serve our nation and provide community development based on public transportation. 
+              Traffic jam is everwhere, there must be a possible way! <br><br>
+
+              This was how the team was built. The co-founder is her friend and also an officemate who has a 
+              strong desire for innovation. And there's two tech savvy IT professionals, her esteemed colleagues, 
+              who both voluntarily believed and helped the idea to become a reality. <br><br>
+
+              Basically, branding is the name itself. The team came up with an app name which is catchy and recognizable,
+              the services offered by the app is the name itself. <br> 
+              
+                 </p>
+            </article>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-lg-3">
+            <article class="clearfix animated text-left animation-done">
+              <ul class="check-list">
+                <li><span class="icon-check" aria-hidden="true"></span> Mobile Applications </li>
+                <li><span class="icon-check" aria-hidden="true"></span> Information Architecture</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Front-End Development</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Usability Consulting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Branding and Design Analysis</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Email Marketing</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Client-Side Scripting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Server-Side Scripting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> CMS Development</li>
+                <li><span class="icon-check" aria-hidden="true"></span> E-Commerce Solutions</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Maintenance Programs</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+        <div class="tab-pane" id="creative">
+          
+          <div class="col-xs-12 col-sm-4 col-lg-3">
+            <article class="clearfix animated text-left animation-done">
+              <ul class="check-list">
+                <li><span class="icon-check" aria-hidden="true"></span> Mobile Applications </li>
+                <li><span class="icon-check" aria-hidden="true"></span> E-Commerce Solutions</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Maintenance Programs</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Front-End Development</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Usability Consulting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Information Architecture</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Client-Side Scripting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Server-Side Scripting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> CMS Development</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Branding and Design Analysis</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Email Marketing</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+        <div class="tab-pane" id="technology">
+          <div class="col-xs-12 col-sm-5 col-lg-6 active">
+            <article class="clearfix animated text-left animation-done"> <span aria-hidden="true" class="icon-rocket big-icon"></span>
+              <h3>Technology</h3>
+              <p>OPTIMIZING LATEST TECHNOLOGY FOR YOUR NECESSITY. <br> <br>
+
+              Public Transportation is one of the major necessity for a growing and developing country over the next few years. At the same time, efficient and effective transport systems are critical to sustainability on many fronts, including access to markets, employment, education, health care and other basic services critical to poverty alleviation. <br> <br>
+
+              Public Transportation in the Philippines is relatively underdeveloped, partly due to the country's mountainous areas and scattered islands, and partly as a result of the government's persistent underinvestment in the nation's infrastructure. Severity of traffic jams, road quality and infrastructures, accidents, road hazards and weather are all key factors affecting traffic crisis. <br> <br>
+
+              Hopndrop is a mobile and web-based app which aims to provide transportation efficiency through an innovative bus management system. The web app offers services to different bus companies such as bus route schedules, and certain pick-up and drop-off points, thus results to obtained compliance on government policies, organized bus lane system, reduced traffic congestion and hassle-free commuting experience. 
+
+                   </p>
+            </article>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-lg-3">
+            <article class="clearfix animated text-left animation-done">
+              <ul class="check-list">
+                <li><span class="icon-check" aria-hidden="true"></span> Mobile Applications </li>
+                <li><span class="icon-check" aria-hidden="true"></span> Information Architecture</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Client-Side Scripting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Server-Side Scripting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> CMS Development</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Usability Consulting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Branding and Design Analysis</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Email Marketing</li>
+                <li><span class="icon-check" aria-hidden="true"></span> E-Commerce Solutions</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Maintenance Programs</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Front-End Development</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+        <div class="tab-pane" id="marketing">
+          <div class="col-xs-12 col-sm-5 col-lg-6">
+            <article class="clearfix animated text-left animation-done"> <span aria-hidden="true" class="icon-pie-chart big-icon"></span>
+              <h3>Experience</h3>
+              <p>ENHANCED USER EXPERIENCE. <br> <br>
+
+              Hopndrop mobile app provide commuters an innovative public transportation experience. It is designed for our customers to be able to plan their trip, find their pick-up and drop-off points, see bus route departures in Metro Manila, monitor real-time traffic updates, and be notified of latest news on transport operations. Thus, results to reduced delays, minimize road rage, and of course, efficient travel time management. </p>
+            </article>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-lg-3">
+            <article class="clearfix animated text-left animation-done">
+              <ul class="check-list">
+                <li><span class="icon-check" aria-hidden="true"></span> Mobile Applications </li>
+                <li><span class="icon-check" aria-hidden="true"></span> Information Architecture</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Client-Side Scripting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Server-Side Scripting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> CMS Development</li>
+                <li><span class="icon-check" aria-hidden="true"></span> E-Commerce Solutions</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Maintenance Programs</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Front-End Development</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Usability Consulting</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Branding and Design Analysis</li>
+                <li><span class="icon-check" aria-hidden="true"></span> Email Marketing</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+      
+      <!-- END --> 
+    </div>
+  </div>
+</section>
+<!-- // SERVICES SECTION -->
+
+
+<!-- PORTFOLIO SECTION -->
+<section id="portfolio" class="section" >
+  <div class="container">
+    <div class="row " >
+      <div class="col-md-offset-3 col-md-6">
+        <header class="section-header">
+          <h2 class="heading" >Download</h2>
+          <p>Get hopndrop on your smartphone.</p>
+        </header>
+      </div>
+    </div>
+  </div>
+  <div class="row text-center animated" data-animation="bounceInRight">
+    <ul class="portfolio-filter clearfix">
+      <li><a href="javascript:void(0)"  onclick="return false;" class="btn btn-primary" data-filter="*">All</a></li>
+      <li><a href="javascript:void(0)"  onclick="return false;" class="btn btn-default" data-filter=".filter-web">Android</a></li>
+      <li><a href="javascript:void(0)"  onclick="return false;"  class="btn btn-default" data-filter=".filter-apps">IOS</a></li>
+    </ul>
+    <div class="portfolio-frame">
+      <div class="portfolio-slider sly-frame">
+        <div class="portfolio-item filter-web">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/1.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-apps">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/2.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-apps filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/3.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/4.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-apps">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/5.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/6.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/6.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/1.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-apps">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/2.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-apps filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/3.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/4.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-apps">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/5.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/6.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/6.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/1.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-apps">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/2.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-apps filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/3.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/4.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-apps">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/5.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/6.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/6.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/1.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-apps">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/2.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-apps filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/3.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/4.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-apps">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/5.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/6.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item filter-web filter-icons">
+          <div class="item-thumbnail"> <a href="#"> <img alt="img"   src="media/portfolio/6.png" ></a> </div>
+          <div class="item-hover">
+            <div class="details">
+              <div class="table">
+                <div class="vertical-center">
+                  <h5 class="title">It is situated In the bay</h5>
+                  <a href="media/portfolio/5.png"  class="btn">digital art</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sly_scrollbar">
+      <div class="handle"></div>
+    </div>
+  </div>
+</section>
+<!-- // PORTFOLIO SECTION -->
+
+<!-- OUR TEAM SECTION -->
+<section id="our-team" class="section section-white" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <header class="section-header">
+          <h2 class="heading " >Our Team</h2>
+          <p>These brilliant colleagues aspires to bring forth an innovative solution and revolutionize our everyday life.</p>
+        </header>
+      </div>
+    </div>
+  </div>
+  <div class="row text-center animated" data-animation="bounceInRight">
+    <div class="team-frame">
+      <ul class="team-slider">
+        <li>
+          <div class="team-member animated" data-animation="fadeIn">
+            <div class="avatar"> <img alt="img"   src="media/team/1.png"></div>
+            <div class="details">
+              <h3 class="heading">Aecil Trinidad</h3>
+              <h4 class="sub-heading">Co-Founder / Graphic Designer </h4>
+              <div class="desc-det"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's . </div>
+              <ul class="unstyled clearfix social">
+                <li><a  target="_blank" href="https://www.facebook.com/aecil021"><i class="icomoon-facebook"></i></a></li>
+                <li><a target="_blank" href="http://twitter.com/#"><i class="icomoon-twitter"></i></a></li>
+                <li><a target="_blank"  href="http://plus.google.com/#"><i class="icomoon-googleplus"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="team-member animated" data-animation="fadeIn">
+            <div class="avatar"> <img alt="img"   src="media/team/2.png"></div>
+            <div class="details">
+              <h3 class="heading">Sarah Jane Valdez</h3>
+              <h4 class="sub-heading">Co-Founder / Graphic Designer</h4>
+              <div class="desc-det"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's . </div>
+              <ul class="unstyled clearfix social">
+                <li><a  target="_blank" href="https://www.facebook.com/sarahvaldezz"><i class="icomoon-facebook"></i></a></li>
+                <li><a target="_blank" href="http://twitter.com/#"><i class="icomoon-twitter"></i></a></li>
+                <li><a target="_blank"  href="http://plus.google.com/#"><i class="icomoon-googleplus"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="team-member animated" data-animation="fadeIn">
+            <div class="avatar"> <img alt="img"   src="media/team/3.png"></div>
+            <div class="details">
+              <h3 class="heading">John Ben Uera</h3>
+              <h4 class="sub-heading">Software Developer</h4>
+              <div class="desc-det"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's . </div>
+              <ul class="unstyled clearfix social">
+                <li><a  target="_blank" href="https://www.facebook.com/im.johnben"><i class="icomoon-facebook"></i></a></li>
+                <li><a target="_blank" href="http://twitter.com/#"><i class="icomoon-twitter"></i></a></li>
+                <li><a target="_blank"  href="http://plus.google.com/#"><i class="icomoon-googleplus"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="team-member animated" data-animation="fadeIn">
+            <div class="avatar"> <img alt="img"   src="media/team/4.png"></div>
+            <div class="details">
+              <h3 class="heading">Paolo Garcia</h3>
+              <h4 class="sub-heading">Back-end Developer</h4>
+              <div class="desc-det"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's . </div>
+              <ul class="unstyled clearfix social">
+                <li><a  target="_blank" href="https://www.facebook.com/iampaoloXD"><i class="icomoon-facebook"></i></a></li>
+                <li><a target="_blank" href="http://twitter.com/#"><i class="icomoon-twitter"></i></a></li>
+                <li><a target="_blank"  href="http://plus.google.com/#"><i class="icomoon-googleplus"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+        </li>
+      </ul>
+    </div>
+    <div class="sly_scrollbar">
+      <div class="handle"></div>
+    </div>
+  </div>
+</section>
+<!-- // OUR TEAM SECTION -->
+
+<!-- CONTACT US SECTION -->
+
+<section style="background:url(img/lights/honeycomb.png) repeat top center" class="section section-white"  id="contact" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-12 col-md-12">
+        <header class="section-header">
+          <h2 class="heading animated" data-animation="bounceInLeft"><img alt="img"   src="media/contact/title1.png" ></h2>
+          <h2 class="heading animated" data-animation="lightSpeedIn"><img alt="img"   src="media/contact/title2.png" ></h2>
+          <h2 class="heading animated" data-animation="bounceInRight"><img alt="img"   src="media/contact/title3.png" ></h2>
+        </header>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-8 col-sm-8 col-md-offset-2 animated" data-animation="bounceInLeft">
+      
+      
+        
+        
+        <!-- CONTACT FORM ALERTS -->
+        <div class="alert alert-success" id="contact_success" style="display: none;">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <div class="alert-inner"> <strong>Thanks,</strong> your message recieved successfully. We'll get back to you as soon as possible. </div>
+        </div>
+        <!-- /success msg -->
+        
+        <div class="alert alert-danger" id="contact_fail" style="display: none;">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <div class="alert-inner"></div>
+        </div>
+        <!-- /error msg --> 
+        <!-- /CONTACT FORM ALERTS --> 
+        
+      </div>
+      <form id="contact-form"  class="form-full-width contact-form">
+          <div class="row">
+            <div class="col-xs-8 col-sm-8 col-md-offset-2 ">
+              <div class="form-group">
+
+                <input placeholder="YOUR NAME*"  type="text" id="contact-name" name="name"  required  data-validate="^[ا-ی\w\s]{2,30}$" />
+                
+              </div>
+            </div>
+                <div class="col-xs-8 col-sm-8 col-md-offset-2 ">
+              <div class="form-group">
+         
+                <input  placeholder="Email*" type="email" id="contact-email" name="email"  required  data-validate="^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" />
+                
+              </div>
+            </div>
+                    <div class="col-xs-8 col-sm-8 col-md-offset-2 ">
+              <div class="form-group">
+            
+                	<input placeholder="SUBJECT*" type="text" id="contact-subject"  name="subject"  aria-describedby="name-format" required  />
+              </div>
+            </div>
+                      <div class="col-xs-8 col-sm-8 col-md-offset-2 ">
+              <div class="form-group">
+    
+                <textarea placeholder="YOUR MESSAGE*" id="contact-message" name="message" required   data-validate=".{2,400}$"></textarea>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 text-left">
+              <div class="wrap-main">
+                <button id="contact-submit" class="btn btn-main btn-primary btn-lg uppercase"><span>Send Message</span></button>
+              </div>
+            </div>
+          </div>
+        </form>
+    </div>
+  </div>
+</section>
+<!-- // CONTACT US SECTION -->
+
+<section class="section section-red" id="connected">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <header class="section-header">
+          <h2  class="heading ">stay connected</h2>
+          <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+        </header>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row animated" data-animation="bounceInUp">
+      <div class="col-md-2 item-connected"> <span class="icon-call-end" aria-hidden="true"></span>
+        <footer>customer care <br>
+          <a href="#">6 (934) 84-92-001</a> </footer>
+      </div>
+      <div class="col-md-2 item-connected"> <span class="icon-envelope" aria-hidden="true"></span>
+        <footer>general info <br>
+          <a href="mailto:info@tofito.com">info@hopndropph.com</a> </footer>
+      </div>
+      <div class="col-md-2 item-connected"> <span class="icon-earphones" aria-hidden="true"></span>
+        <footer>support team <br>
+          <a href="mailto:support@tofito.com">support@hopndropph.com</a> </footer>
+      </div>
+      
+      <div class="col-md-2 item-connected"> <span class="icon-social-facebook" aria-hidden="true"></span>
+        <footer>facebook <br>
+          <a href="#">hopndropph.agency</a> </footer>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PAGE FOOTER -->
+<div class="section-red">
+  <div class="container">
+    <footer class="page-footer">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="copyright"> © 2016 HOPNDROP. All Rights Reserved.</div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+
+<!-- // PAGE FOOTER -->
+
+
+
+<!-- Javascripts -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.prettyPhoto.min.js"></script>
+<script src="js/jflickrfeed.min.js"></script>
+<script src="js/sly.min.js"></script>
+<script src="js/package.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<!-- // Slider -->
+<script type="text/javascript" src="js/jquery.sequence.js"></script>
+<script type="text/javascript" src="js/sequencejs.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
